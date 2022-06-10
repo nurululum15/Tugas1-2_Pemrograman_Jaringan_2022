@@ -39,3 +39,24 @@ GET
   - status: ERROR
   - data: pesan kesalahan
 
+UPLOAD
+* TUJUAN : Mengunggah file ke dalam folder files di server
+* PARAMETER :
+  -PARAMETER1 : nama file
+* RESULT:
+  -BERHASIL : 
+    - status : OK
+    - data : pesan berhasil
+  - GAGAL:
+    - status: ERROR
+    - data: pesan kesalahan
+
+DELETE
+* TUJUAN : Menghapus file di dalam folder files di server
+* PARAMETER :
+  -PARAMETER1 : nama file
+* RESULT:
+  -BERHASIL : 
+    - status : OK
+    - data : pesan berhasil
+  - GAGAL:tidak terhapus
